@@ -20,5 +20,13 @@
     "handlebars-helper-css": "^0.1.0"
   },
   "keywords": [],
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agonz224/burgertwo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agonz224/burgertwo/issues"
+  },
+  "homepage": "https://github.com/agonz224/burgertwo#readme"
 }
