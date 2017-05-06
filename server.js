@@ -25,6 +25,9 @@ var routes = require("./controllers/burgerBoss.js");
 
 app.use("/", routes);
 
+//synchronize sequelize and listen on port 3000
+
+db.sequelize.sync({ force: true }).then(function() {
 app.listen(PORT, function() {
   console.log("App listening on PORT: " + PORT);
 });
